@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+main {
+  height: auto;
+  min-height: 0;
+  padding-bottom: 150px;
+}
+
+.button-main {font-family: "Montserrat"}
+
 .img-logo {
     width: 568px;
     height: 500px;
@@ -87,12 +95,19 @@ p {
 }
 
 
-@media screen and (max-width: 500px) {
-    a {
+
+@media screen and (max-width: 858px) {
+    .link-header {
         display: none;
+    }
+
+    .button-header {
+        display: none;
+        
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1037px) {
 
 * {
@@ -187,5 +202,51 @@ p {
     p {
     margin-bottom: 35px;
 }
+=======
+@media screen and (max-width: 839px) {
+  main > section {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+
+ .button-main {
+    display: block;
+    margin: 23px auto 0;
+  }
+  }
+}
+
+@media screen and (min-width: 666px) and (max-width: 827px) {
+  main > .img-logo {
+    display: block;
+    width: 540px;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 665px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-logo {
+    display: block;
+    margin-inline: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {display: none;}
+
+  section {
+  display: block;
+  margin-inline: auto;
+>>>>>>> 532efa0 (adicionei responsividade)
 }
 }
