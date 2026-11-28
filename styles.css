@@ -162,3 +162,22 @@ p {
         display: none;
     }
 }
+
+@media screen and (max-width: 458px) {
+     h1 {
+font-size: 48px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 20px;
+}
+
+p {
+    font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: block;
+  white-space: nowrap;
+}
+}
