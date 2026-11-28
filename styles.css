@@ -172,12 +172,15 @@ font-size: 48px;
   margin-top: 20px;
 }
 
-p {
-    font-size: 15px;
+h2 {
+font-size: 30px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-display: block;
-  white-space: nowrap;
+}
+
+img {
+    padding: 30px;
+
 }
 }
